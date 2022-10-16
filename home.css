@@ -1,0 +1,39 @@
+/* width=comprimento */
+/* height=altura */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    width: 100vw!important;
+    max-width: 100%!important;
+}
+
+body{
+    background-color: #40646633!important;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-x: hidden!important;
+}
+
+h1{
+    position: relative;
+    top: 30px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    text-align: justify;
+}

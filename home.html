@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Verus</title>
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./home.css" />
+
+    <!-- CSS footer -->
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./images/favicon_io/favicon-32x32.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./cabeçalho.css" />
+
+
+    <!-- CSS + JS ssb-container -->
+    <link rel='stylesheet' id='ssb-ui-style-css' href='https://alphalumen.org.br/wp-content/plugins/sticky-side-buttons/assets/css/ssb-ui-style.css?ver=5.4.10' type='text/css' media='all'/>
+    <style id='ssb-ui-style-inline-css' type='text/css'>#ssb-btn-0{background:#007466}#ssb-btn-0:hover{background:rgba(0,116,102,.9)}#ssb-btn-0 a{color:#fff}.ssb-share-btn,.ssb-share-btn .ssb-social-popup{background:#007466;color:#fff}.ssb-share-btn:hover{background:rgba(0,116,102,.9)}.ssb-share-btn a{color:#fff!important}#ssb-btn-1{background:#0e8e7f}#ssb-btn-1:hover{background:rgba(14,142,127,.9)}#ssb-btn-1 a{color:#fff}#ssb-btn-2{background:#20a393}#ssb-btn-2:hover{background:rgba(32,163,147,.9)}#ssb-btn-2 a{color:#fff}#ssb-btn-3{background:#33b8a8}#ssb-btn-3:hover{background:rgba(51,184,168,.9)}#ssb-btn-3 a{color:#fff}</style>
+
+
+    <!-- CSS que estraga os símbolos (tá com htps e não https, justamente para esse CSS não funcionar) -->
+    <link rel='stylesheet' id='ssb-fontawesome-css' href='htps://alphalumen.org.br/wp-content/plugins/sticky-side-buttons/assets/css/font-awesome.css?ver=5.4.10' type='text/css' media='all'/>
+
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css' href='https://alphalumen.org.br/wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=5.4.10' type='text/css' media='all'/>
+<link crossorigin="anonymous" rel='stylesheet' id='nicdark-fonts-css' rel='nofollow' href='//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C700&#038;ver=1.0.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='js_composer_front-css' href='https://alphalumen.org.br/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='addtoany-css' href='https://alphalumen.org.br/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all'/>
+<script type='text/javascript'>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize={Share:"Compartilhar",Save:"Salvar",Subscribe:"Inscrever",Email:"Email",Bookmark:"Favoritos",ShowAll:"Mostrar tudo",ShowLess:"Mostrar menos",FindServices:"Procurar serviço(s)",FindAnyServiceToAddTo:"Encontrar rapidamente qualquer serviço para",PoweredBy:"Serviço fornecido por",ShareViaEmail:"Share via email",SubscribeViaEmail:"Subscribe via email",BookmarkInYourBrowser:"Adicionar aos favoritos",BookmarkInstructions:"Press Ctrl+D or \u2318+D to bookmark this page",AddToYourFavorites:"Adicionar a favoritos",SendFromWebOrProgram:"Send from any email address or email program",EmailProgram:"Email program",More:"More&#8230;",ThanksForSharing:"Thanks for sharing!",ThanksForFollowing:"Thanks for following!"};</script>
+<script type='text/javascript' async src='https://static.addtoany.com/menu/page.js' id="addtoany-core-js"></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id="jquery-core-js"></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1' id="jquery-migrate-js"></script>
+<script type='text/javascript' async src='https://alphalumen.org.br/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' id="addtoany-jquery-js"></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-content/plugins/amazon-polly/public/js/amazonpolly-public.js?ver=1.0.0' id="amazonpolly-js"></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0' id="tp-tools-js"></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.2' id="revmin-js"></script>
+<script type='text/javascript'>//<![CDATA[
+var ssb_ui_data={"z_index":"1"};
+//]]></script>
+<script type='text/javascript' src='https://alphalumen.org.br/wp-content/plugins/sticky-side-buttons/assets/js/ssb-ui-js.js?ver=5.4.10' id="ssb-ui-js-js"></script>
+
+  <!-- Our project just needs Font Awesome Solid + Brands -->
+  <script defer src="./Icons/fontawesome-free-6.2.0-web/js/brands.js"></script>
+  <script defer src="./Icons/fontawesome-free-6.2.0-web/js/solid.js"></script>
+  <script defer src="./Icons/fontawesome-free-6.2.0-web/js/fontawesome.js"></script>
+
+</head>
+
+<!-- script bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<body>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="navbar-brand">
+            <img class="logo-top" src="./images/Verus confirma.png" />
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div id="myNav" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav ">
+        <li class="nav-item"><a href="./home.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Quem somos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        </ul>
+        </div>
+        </nav>
+        </div>
+
+</div>
+
+ <h1>Projeto Verus</h1>
+
+<div class="textos">
+ <p class="texto-teste" >O Projeto Verus é um projeto composto por jovens estudantes e profissionais orientadores ativistas da ciência no meio jornalístico.</p>
+ <p class="texto-teste" >O Projeto Verus começou em 2019 como uma ferramenta para o combate as fake news sobre o Covid-19. Desenvolvido junto aos aprendizes do Projeto Escola, do Instituto Alpha Lumen, o Verus logo alcançou duas premiações internacionais e o reconhecimento público. Em 2022, seu foco foi alterado para acompanhar as emergências climáticas e os Objetivos de Desenvolvimento Sustentável (ODS), da ONU.</p>
+ <p class="texto-teste" >O Projeto Verus começou em 2019 como uma ferramenta para o combate as fake news sobre o Covid-19. Desenvolvido junto aos aprendizes do Projeto Escola, do Instituto Alpha Lumen, o Verus logo alcançou duas premiações internacionais e o reconhecimento público. Em 2022, seu foco foi alterado para acompanhar as emergências climáticas e os Objetivos de Desenvolvimento Sustentável (ODS), da ONU.</p>
+
+</div>
+
+ <!--HTML ssb-->
+
+ <div id="ssb-container" class="ssb-btns-left ssb-anim-slide">
+    <ul class="ssb-dark-hover">
+        <li id="ssb-btn-0">
+            <p>
+                <a rel="nofollow" href="https://www.instagram.com/projetoverus/" target="_blank"><span><i class="fa-brands fa-instagram"></i></span> Instagram</a>
+            </p>
+        </li>
+
+                                        <li id="ssb-btn-1">
+                <p>
+                    <a rel="nofollow" href="https://www.facebook.com/projetoverus1" target="_blank"><span><i class="fa-brands fa-facebook-f"></i></span> Facebook</a>
+                </p>
+            </li>
+                                        <li id="ssb-btn-2">
+                <p>
+                    <a rel="nofollow" href="https://www.youtube.com/channel/UCdVXFoGs4mTcGHIANj1jJaQ" target="_blank"><span><i class="fa-brands fa-youtube"></i></span> Youtube</a>
+                </p>
+            </li>
+                                        <li id="ssb-btn-3">
+                <p>
+                    <a rel="nofollow" href="#" target="_blank"><span><i class="fa-brands fa-tiktok"></i></span> Tik Tok</a>
+                </p>
+            </li>
+                                </ul>
+</div>
+
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Verus</h4>
+                    <ul>
+                        <li><a href="#"> Quem somos </a></li>
+                        <li><a href=""> texto </a></li>
+                        <li><a href=""> texto </a></li>
+                        <li><a href=""> texto</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>texto</h4>
+                    <ul>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>texto</h4>
+                    <ul>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                        <li><a href="#">texto</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>texto</h4>
+                    <div class="form-sub">
+                        <img class="logo-footer"src="./images/Verus confirma.png">
+                    </div>
+
+                    <div class="redes-sociais">
+                        <a href="https://www.instagram.com/projetoverus/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+                        <a href="https://www.facebook.com/projetoverus1" target="_blank"> <i class="fa-brands fa-facebook-f"></i> </a>
+                        <a href="https://www.youtube.com/channel/UCdVXFoGs4mTcGHIANj1jJaQ" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-tiktok"></i> </a>
+                    </div>
+
+                </div>
+    </footer>
+                <!--end footer col-->
+
+</body>
+</html>
