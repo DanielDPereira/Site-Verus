@@ -31,7 +31,7 @@ h1{
     top: 30px;
 }
 
-.textos{
+.conteúdo{
     display: flex;
     flex-direction: column;
     margin: 60px;
