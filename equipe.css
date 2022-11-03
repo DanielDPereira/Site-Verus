@@ -1,11 +1,12 @@
-.julio-foto{
+.Julio-foto, .DanielD-foto, .Anny-foto {
     display: inline-block;
     border-radius: 100px!important;
     border: 5px solid rgb(255, 255, 255)!important;
     max-width: 150px!important;
+    margin-bottom: 10px;
 }
 
-.Julio{
+.Julio, .DanielD, .Anny{
     display: flex;
     align-items: center;
     
