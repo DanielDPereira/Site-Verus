@@ -121,9 +121,8 @@ footer{
 }
 
 .logo-footer{
-    width: 20em;
-    left: 50%;
-
+    width: 300px;
+    align-items: center;
 }
 
 footer{
