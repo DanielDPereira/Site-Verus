@@ -37,3 +37,8 @@ h1{
     margin: 60px;
     text-align: justify;
 }
+
+a:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+    }
