@@ -46,3 +46,7 @@ a:hover {
 .a-no-texto{
     color: #1d5a5c;
 }
+
+.a-no-texto:hover{
+    color:rgb(3, 82, 3)
+}
