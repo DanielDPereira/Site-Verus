@@ -1,8 +1,8 @@
 .Julio-foto, .DanielD-foto, .Anny-foto {
     display: inline-block;
     border-radius: 100px!important;
-    border: 5px solid rgb(255, 255, 255)!important;
-    max-width: 150px!important;
+    border: 0.2rem solid rgb(255, 255, 255)!important;
+    max-width: 10rem!important;
     margin-bottom: 10px;
 }
 
@@ -19,5 +19,11 @@
 @media only screen and (max-width: 670px){
     .ssb-btns-left.ssb-anim-slide{
         display: none!important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Julio, .DanielD, .Anny{
+        display:contents;
     }
 }
