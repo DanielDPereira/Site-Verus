@@ -34,7 +34,7 @@ h1{
 .conteúdo{
     display: flex;
     flex-direction: column;
-    margin: 60px;
+    margin: 60px;   
     text-align: justify;
 }
 
@@ -54,4 +54,11 @@ a:hover {
 .video_verus{
     max-width: 90vw;
     align-items: center;
+}
+
+/* Função para a barra lateral com as redes sociais só aparecer quando a tela ter mais que 670px de largura*/
+@media only screen and (max-width: 670px){
+    .ssb-btns-left.ssb-anim-slide{
+        display: none!important;
+    }
 }
