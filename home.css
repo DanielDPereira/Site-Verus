@@ -54,6 +54,7 @@ a:hover {
 .video_verus{
     max-width: 90vw;
     align-items: center;
+    border-radius: 20px;
 }
 
 /* Função para a barra lateral com as redes sociais só aparecer quando a tela ter mais que 670px de largura*/
