@@ -9,9 +9,15 @@
 .Julio, .DanielD, .Anny{
     display: flex;
     align-items: center;
-    
 }
    
 .bio{
     padding: 10px;
+}
+
+/* Função para a barra lateral com as redes sociais só aparecer quando a tela ter mais que 670px de largura*/
+@media only screen and (max-width: 670px){
+    .ssb-btns-left.ssb-anim-slide{
+        display: none!important;
+    }
 }
