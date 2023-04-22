@@ -11,4 +11,4 @@ Projeto de Verificação de Enredos Reportagens de Utilidade Social
 <br>
 <a href="https://www.youtube.com/@projetoverus2826" target="_blank">Youtube</a>
 <br>
-<a href="https://www.tiktok.com/@projetoverus" target="_blank"></a>
+<a href="https://www.tiktok.com/@projetoverus" target="_blank">Tik Tok</a>
